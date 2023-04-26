@@ -1,4 +1,4 @@
-FROM node:14.21-buster-slim
+FROM node:14.21-buster
 
 WORKDIR /home/docker/
 
