@@ -1,4 +1,5 @@
 FROM node:14.21-buster
+SHELL ["/bin/bash", "-c"]
 
 COPY package.json .
 
