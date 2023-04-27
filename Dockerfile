@@ -1,6 +1,6 @@
 FROM node:14.21-buster
 
-chown node:node /usr/local/lib/node_modules
+RUN  chown node:node /usr/local/lib/node_modules
 
 USER node
 
