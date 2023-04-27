@@ -1,8 +1,8 @@
 FROM node:14.21-buster
 
-RUN whoami 
+chown node:node /usr/local/lib/node_modules
 
-USER root
+USER node
 
 WORKDIR /home/docker/
 
