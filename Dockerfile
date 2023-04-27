@@ -1,5 +1,9 @@
 FROM node:14.21-buster
 
+RUN whoami 
+
+USER root
+
 WORKDIR /home/docker/
 
 COPY package.json .
